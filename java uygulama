@@ -20,5 +20,4 @@ public class Uygulama {
         else
             System.out.println("MATEMATİK DERSİNDEN  " +not+ " ile  KALDINIZ.MAALESEF SENEYE BİR DAHA ALACAKSINIZ..");
     }
-
 }
