@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class Uygulama{
+    public static  void  main(String [] args)
+    {
+        Scanner klavye=new Scanner(System.in);
+        System.out.println("1.kenar gir:");
+        int kenar1=klavye.nextInt();
+        System.out.println("2.kenar gir:");
+        int kenar2=klavye.nextInt();
+        System.out.println("3.kenar gir:");
+        int kenar3=klavye.nextInt();
+
+        if(kenar1==kenar2&&kenar1==kenar3){
+            System.out.println("eşkenar");
+        }
+        else  if((kenar1!=kenar2)&&(kenar1!=kenar3)&&(kenar2!=kenar3))
+        {
+            System.out.println("çeşit üçgen");
+        }
+        else
+        {
+            System.out.println("ikizkenar üçgen");
+        }
+    }
+
+}
